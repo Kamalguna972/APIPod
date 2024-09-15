@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF22A92702DD0CE6A07811F6 /* Pods_MySDKDevelopment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF19D7FD6395E370B2E86 /* Pods_MySDKDevelopment.framework */; };
+		F92EFECF2C96CCCB00873DEF /* RealmDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EFECE2C96CCCB00873DEF /* RealmDatas.swift */; };
+		F92EFED12C96CDA200873DEF /* AddRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EFED02C96CDA200873DEF /* AddRealm.swift */; };
 		F96A37872C946C7400F250F6 /* MySDKDevelopment.h in Headers */ = {isa = PBXBuildFile; fileRef = F96A37862C946C7400F250F6 /* MySDKDevelopment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F96A378E2C946C8D00F250F6 /* NetWorkmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A378D2C946C8D00F250F6 /* NetWorkmanager.swift */; };
 /* End PBXBuildFile section */
@@ -16,6 +18,8 @@
 		388EF19D7FD6395E370B2E86 /* Pods_MySDKDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDKDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B56375AC19A0DC26B1B2EA8 /* Pods-MySDKDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.release.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.release.xcconfig"; sourceTree = "<group>"; };
 		80BA563E99517A607D3E20C3 /* Pods-MySDKDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
+		F92EFECE2C96CCCB00873DEF /* RealmDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDatas.swift; sourceTree = "<group>"; };
+		F92EFED02C96CDA200873DEF /* AddRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRealm.swift; sourceTree = "<group>"; };
 		F96A37832C946C7400F250F6 /* MySDKDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySDKDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96A37862C946C7400F250F6 /* MySDKDevelopment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySDKDevelopment.h; sourceTree = "<group>"; };
 		F96A378D2C946C8D00F250F6 /* NetWorkmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkmanager.swift; sourceTree = "<group>"; };
@@ -39,7 +43,6 @@
 				80BA563E99517A607D3E20C3 /* Pods-MySDKDevelopment.debug.xcconfig */,
 				4B56375AC19A0DC26B1B2EA8 /* Pods-MySDKDevelopment.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -66,6 +69,8 @@
 			children = (
 				F96A37862C946C7400F250F6 /* MySDKDevelopment.h */,
 				F96A378D2C946C8D00F250F6 /* NetWorkmanager.swift */,
+				F92EFECE2C96CCCB00873DEF /* RealmDatas.swift */,
+				F92EFED02C96CDA200873DEF /* AddRealm.swift */,
 			);
 			path = MySDKDevelopment;
 			sourceTree = "<group>";
@@ -185,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F96A378E2C946C8D00F250F6 /* NetWorkmanager.swift in Sources */,
+				F92EFED12C96CDA200873DEF /* AddRealm.swift in Sources */,
+				F92EFECF2C96CCCB00873DEF /* RealmDatas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

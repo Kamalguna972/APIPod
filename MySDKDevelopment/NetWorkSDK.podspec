@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = 'MySDKDevelopment/**/*.{swift,h,m}'
   spec.frameworks   = 'Foundation'
   spec.dependency 'Alamofire', '~> 5.4'
+  spec.dependency 'RealmSwift', '~> 10.0'
   spec.swift_versions = ['5.7']
 end
