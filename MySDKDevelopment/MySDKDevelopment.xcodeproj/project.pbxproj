@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1EEBDAB2C82DE820473894D /* Pods_MySDKDevelopment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA20155A08EF6D5C01EB4830 /* Pods_MySDKDevelopment.framework */; };
+		BF22A92702DD0CE6A07811F6 /* Pods_MySDKDevelopment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388EF19D7FD6395E370B2E86 /* Pods_MySDKDevelopment.framework */; };
 		F96A37872C946C7400F250F6 /* MySDKDevelopment.h in Headers */ = {isa = PBXBuildFile; fileRef = F96A37862C946C7400F250F6 /* MySDKDevelopment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F96A378E2C946C8D00F250F6 /* NetWorkmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96A378D2C946C8D00F250F6 /* NetWorkmanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		279B7DE9FB6D4C81F66D4D00 /* Pods-MySDKDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
-		967BCB39EC48CEDE8A697FA0 /* Pods-MySDKDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.release.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.release.xcconfig"; sourceTree = "<group>"; };
-		EA20155A08EF6D5C01EB4830 /* Pods_MySDKDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDKDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388EF19D7FD6395E370B2E86 /* Pods_MySDKDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDKDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B56375AC19A0DC26B1B2EA8 /* Pods-MySDKDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.release.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.release.xcconfig"; sourceTree = "<group>"; };
+		80BA563E99517A607D3E20C3 /* Pods-MySDKDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySDKDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-MySDKDevelopment/Pods-MySDKDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
 		F96A37832C946C7400F250F6 /* MySDKDevelopment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySDKDevelopment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96A37862C946C7400F250F6 /* MySDKDevelopment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySDKDevelopment.h; sourceTree = "<group>"; };
 		F96A378D2C946C8D00F250F6 /* NetWorkmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkmanager.swift; sourceTree = "<group>"; };
@@ -26,29 +26,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EEBDAB2C82DE820473894D /* Pods_MySDKDevelopment.framework in Frameworks */,
+				BF22A92702DD0CE6A07811F6 /* Pods_MySDKDevelopment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E58E7676081EF2755BCE9C92 /* Pods */ = {
+		9D5D5E2DACA3A5C4AEB7F269 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				279B7DE9FB6D4C81F66D4D00 /* Pods-MySDKDevelopment.debug.xcconfig */,
-				967BCB39EC48CEDE8A697FA0 /* Pods-MySDKDevelopment.release.xcconfig */,
+				80BA563E99517A607D3E20C3 /* Pods-MySDKDevelopment.debug.xcconfig */,
+				4B56375AC19A0DC26B1B2EA8 /* Pods-MySDKDevelopment.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F8A73C5CD91689F06B2C85ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EA20155A08EF6D5C01EB4830 /* Pods_MySDKDevelopment.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F96A37792C946C7400F250F6 = {
@@ -56,8 +48,8 @@
 			children = (
 				F96A37852C946C7400F250F6 /* MySDKDevelopment */,
 				F96A37842C946C7400F250F6 /* Products */,
-				E58E7676081EF2755BCE9C92 /* Pods */,
-				F8A73C5CD91689F06B2C85ED /* Frameworks */,
+				9D5D5E2DACA3A5C4AEB7F269 /* Pods */,
+				FC3206DE980D4261686F34E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +70,14 @@
 			path = MySDKDevelopment;
 			sourceTree = "<group>";
 		};
+		FC3206DE980D4261686F34E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388EF19D7FD6395E370B2E86 /* Pods_MySDKDevelopment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96A378A2C946C7400F250F6 /* Build configuration list for PBXNativeTarget "MySDKDevelopment" */;
 			buildPhases = (
-				735C4FDFDE45EE34456DF1F0 /* [CP] Check Pods Manifest.lock */,
+				8EECD40ADF6D2F823559A95A /* [CP] Check Pods Manifest.lock */,
 				F96A377E2C946C7400F250F6 /* Headers */,
 				F96A377F2C946C7400F250F6 /* Sources */,
 				F96A37802C946C7400F250F6 /* Frameworks */,
@@ -155,7 +155,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		735C4FDFDE45EE34456DF1F0 /* [CP] Check Pods Manifest.lock */ = {
+		8EECD40ADF6D2F823559A95A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,7 +318,7 @@
 		};
 		F96A378B2C946C7400F250F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 279B7DE9FB6D4C81F66D4D00 /* Pods-MySDKDevelopment.debug.xcconfig */;
+			baseConfigurationReference = 80BA563E99517A607D3E20C3 /* Pods-MySDKDevelopment.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -355,7 +355,7 @@
 		};
 		F96A378C2C946C7400F250F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 967BCB39EC48CEDE8A697FA0 /* Pods-MySDKDevelopment.release.xcconfig */;
+			baseConfigurationReference = 4B56375AC19A0DC26B1B2EA8 /* Pods-MySDKDevelopment.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
